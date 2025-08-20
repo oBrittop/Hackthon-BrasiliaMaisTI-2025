@@ -1,0 +1,41 @@
+/* Importando o estilo reset */
+@import url('./styles/reset.css');
+
+/* REMIXICONS */
+@import url(https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css);
+
+/* Importing the font 'Poppins' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Importando o estilo do card de formulário */
+@import url('./styles/cardForm.css');
+
+/* Importando o estilo do formulário */
+@import url('./styles/formulario.css');
+
+body {
+    background: linear-gradient(125deg, #003C6F, #2591ED);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-font);
+}
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+
+    --font-h1: 20px;
+    --font-h2: 16px;
+    --font-etapa: 11px;
+    --font-p: 12px;
+    --font-btn: 13px;
+
+    --blue: #0066B3;
+    --soft-blue: #007FE0;
+    --gray: #AEAEAE;
+    --white: #FFFFFF;
+    --orange: #F7941D;
+
+    --index-modal-open: 10;
+    --index-modal-close: 0;
+}

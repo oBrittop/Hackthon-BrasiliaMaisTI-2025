@@ -1,0 +1,88 @@
+.card__img__formulario {
+    width: 105px;
+}
+
+.card__container__titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card__container__titulo_time {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card__titulo__formulario {
+    font-size: var(--font-h1);
+    color: var(--blue);
+    font-weight: 700;
+}
+.card__titulo__formulario_time{
+    font-size: var(--font-h1);
+    color: var(--blue);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.checkbox_time{
+  display: flex; /* Alinha os itens na horizontal */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  gap: 5px; /* Define um espaço pequeno (5 pixels) entre a caixa e o texto */
+    
+}
+
+.card__etapa {
+    color: var(--blue);
+    font-size: var(--font-etapa);
+}
+
+#formulario__sugestoes {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+#formulario__identificacao {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+label {
+    font-size: var(--font-p);
+}
+
+input {
+    font-size: var(--font-p);
+    border: none;
+    border-bottom: 1px solid var(--orange);
+    width: 230px;
+    margin-bottom: 5px;
+}
+
+.card__container__btn {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btnProximo {
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 2.5px;
+}
+
+.btnVoltar {
+    border: 1px solid var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+    padding: 2.5px;
+}
+
+i {
+    color: var(--blue);
+}
